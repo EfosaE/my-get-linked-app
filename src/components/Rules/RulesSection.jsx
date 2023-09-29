@@ -1,6 +1,6 @@
 import React from "react";
 import woman from "../../assets/images/woman.png";
-import blur from "../../assets/images/PurpleLensFlare.svg";
+import blur from "../../assets/images/purpleLensFlare.svg";
 import { motion } from "framer-motion";
 import "./rules.css";
 import "./media.css";
