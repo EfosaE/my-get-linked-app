@@ -3,7 +3,7 @@ import Links from "./links";
 import { links } from "./data";
 import { Link } from "react-router-dom";
 import { HiBars3BottomLeft } from "react-icons/hi2";
-import { LiaTimesSolid } from "react-icons/Lia";
+import { MdOutlineClose } from "react-icons/md";
 import "./nav.css";
 import "./media.css";
 import { motion } from "framer-motion";
@@ -36,7 +36,7 @@ const Navbar = () => {
                 setShowMenu(false);
               }}
             >
-              <LiaTimesSolid />
+              <MdOutlineClose />
             </button>
             <Links links={links} setRegisterBtn={setIsRegisterActive} setShowMenu={setShowMenu} />
             <div className="nav-btn">
