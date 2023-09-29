@@ -3,7 +3,7 @@ import Trophy from "../../assets/images/trophy.png";
 import Gold from "../../assets/images/gold.png";
 import Silver from "../../assets/images/silver.png";
 import Bronze from "../../assets/images/bronze.png";
-import BrightFlare from "../../assets/images/PurpleLensFlare.svg";
+import BrightFlare from "../../assets/images/purpleLensFlare.svg";
 import { motion } from "framer-motion";
 import "./reward.css";
 import "./media.css"
