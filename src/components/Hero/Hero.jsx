@@ -71,7 +71,7 @@ const Hero = () => {
             whileTap={{ scale: 0.9 }}
             className="btn"
           >
-            <Link to="/register/register">Register</Link>
+            <Link to="/register">Register</Link>
           </motion.button>
           <h3 style={{ fontFamily: "Unica One" }} className="counter">
             00<sub className="sub">H</sub> 00<sub className="sub">M</sub> 00

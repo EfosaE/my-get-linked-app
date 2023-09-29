@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
-          path="/Contact/Contact"
+          path="/contact"
           element={
             <React.Suspense fallback={<Audio/>}>
               <LazyContact />
@@ -23,7 +23,7 @@ function App() {
           }
         />
         <Route
-          path="/Register/Register"
+          path="/register"
           element={
             <React.Suspense fallback={<Audio/>}>
               <LazyRegister/>
