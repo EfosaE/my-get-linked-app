@@ -123,3 +123,7 @@ select option {
 .modal-img > :nth-child(1) {
   margin-right: -8.2rem;
 }
+
+ div .modal-bg .modal-container .modal-text h4{
+    font-size: 1.5rem
+  }

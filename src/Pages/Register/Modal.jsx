@@ -11,7 +11,7 @@ const Modal = ({showModal, setShowModal}) => {
           <img src={successMan} alt="" />
         </div>
         <div className="modal-text">
-          <h4 style={{ fontSize: "1.5rem" }}>
+          <h4>
             Congratulations <br /> you have successfully Registered!
           </h4>
           <p style={{ fontSize: ".875rem" }}>

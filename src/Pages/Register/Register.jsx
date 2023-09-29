@@ -9,7 +9,7 @@ import "./register.css";
 const Register = () => {
    const [showModal, setShowModal] = useState(false);
   return (
-    <>
+    <div>
       <Modal showModal={showModal} setShowModal={setShowModal} />
       <section className="register-section">
         <div className="container">
@@ -30,7 +30,7 @@ const Register = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 

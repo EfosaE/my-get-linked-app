@@ -28,4 +28,10 @@
   form .register-form-elements .form-elements label {
     font-size: 0.8rem;
   }
+  div .modal-bg {
+    height: 150vh;
+  }
+  div .modal-bg .modal-container .modal-text h4{
+    font-size: 6rem
+  }
 }
