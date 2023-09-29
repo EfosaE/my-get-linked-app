@@ -5,8 +5,8 @@ import Home from "./Pages/Home";
 import { Routes, Route } from "react-router-dom";
 import { Audio } from "react-loader-spinner";
 
-const LazyContact = React.lazy(() => import("./Pages/Contact"));
-const LazyRegister = React.lazy(() => import("./Pages/Register"));
+const LazyContact = React.lazy(() => import("./Pages/Contact/Contact"));
+const LazyRegister = React.lazy(() => import("./Pages/Register/Register"));
 
 function App() {    
   return (
