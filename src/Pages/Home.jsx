@@ -1,14 +1,14 @@
 import React from "react";
-import Hero from "../components/Hero";
-import Introduction from "../components/Introduction/";
-import RulesSection from "../components/Rules/";
-import Criteria from "../components/JudgingCriteria/";
-import Faq from "../components/Faq";
-import TimeLine from "../components/TimeLine";
-import Reward from "../components/Rewards";
-import PrivacyPolicy from "../components/PrivacyPolicy";
-import Footer from "../components/Footer";
-import Partners from "../components/Partners";
+import Hero from "../components/Hero/Hero";
+import Introduction from "../components/Introduction/Introduction";
+import RulesSection from "../components/Rules/RulesSection";
+import Criteria from "../components/JudgingCriteria/Criteria";
+import Faq from "../components/Faq/Faq";
+import TimeLine from "../components/TimeLine/TimeLine";
+import Reward from "../components/Rewards/Reward";
+import PrivacyPolicy from "../components/PrivacyPolicy/PrivacyPolicy";
+import Footer from "../components/Footer/Footer";
+import Partners from "../components/Partners/Partners";
 
 const Home = () => {
   return (
