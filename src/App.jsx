@@ -1,35 +1,19 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
+import Contact from "./Pages/Contact/Contact";
 import Home from "./Pages/Home";
 import { Routes, Route } from "react-router-dom";
-import { Audio } from "react-loader-spinner";
+import Register from "./Pages/Register/Register";
 
-const LazyContact = React.lazy(() => import("./Pages/Contact/Contact"));
-const LazyRegister = React.lazy(() => import("./Pages/Register/Register"));
-
-function App() {    
+function App() {
   return (
     <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route
-          path="/contact"
-          element={
-            <React.Suspense fallback={<Audio/>}>
-              <LazyContact />
-            </React.Suspense>
-          }
-        />
-        <Route
-          path="/register"
-          element={
-            <React.Suspense fallback={<Audio/>}>
-              <LazyRegister/>
-            </React.Suspense>
-          }
-        />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </>
   );
