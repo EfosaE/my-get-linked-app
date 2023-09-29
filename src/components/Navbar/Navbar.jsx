@@ -49,7 +49,7 @@ const Navbar = () => {
                 className="l-btn"
               >
                 <Link
-                  to="/register"
+                  to="/register/register"
                   onClick={() => {
                     setIsRegisterActive(true);
                     setShowMenu(false);

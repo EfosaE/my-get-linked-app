@@ -31,7 +31,7 @@ const Links = ({ links, setRegisterBtn, setShowMenu}) => {
       })}
       <li>
         <NavLink
-          to="/contact"
+          to="/contact/contact"
           onClick={() => {
             setRegisterBtn(false)
             setShowMenu(false);
