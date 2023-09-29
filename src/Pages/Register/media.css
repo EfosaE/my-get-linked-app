@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+  .register-div {
+    flex-direction: column;
+  }
+  form.register-form {
+    background: none;
+    padding: 0;
+  }
+  form.register-form h2 {
+    font-size: 1rem;
+  }
+  .register-img .thumbs-up {
+    width: 12.1875rem;
+    height: 9.6875rem;
+  }
+  form p.alert-text {
+    font-size: 0.5rem;
+  }
+  form .terms-conditions p {
+    font-size: 0.625rem;
+  }
+  .register-form-header h3 {
+    font-size: 0.9375rem;
+  }
+  form .register-form-elements {
+    display: block;
+  }
+  form .register-form-elements .form-elements label {
+    font-size: 0.8rem;
+  }
+}

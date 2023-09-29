@@ -1,0 +1,38 @@
+@media (max-width: 600px) {
+  .privacy-div {
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  .privacy-section {
+    margin-right: 0rem;
+  }
+  .privacy-article {
+    padding: 2rem 1rem;
+  }
+
+  .privacy-text-list p {
+    text-align: left;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+  .list-terms {
+    margin-right: 1rem;
+    margin-top: 0;
+  }
+  .privacy-article h4,
+  .privacy-article h5 {
+    text-align: left;
+  }
+
+  .shield {
+    width: 15.5625rem;
+    height: 19.4375rem;
+    margin-right: 1rem;
+  }
+  .image-section .padlock {
+    width: 16.375rem;
+    height: 21.9375rem;
+     margin-top: 6rem;
+  }
+}

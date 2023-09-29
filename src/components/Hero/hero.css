@@ -1,0 +1,95 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.hero-flare {
+  position: absolute;
+  top: 0;
+  left: 8rem;
+  z-index: -1;
+}
+.star {
+  position: absolute;
+  top: 2.81rem;
+  left: 8.67rem;
+}
+
+.vr-glass {
+  height: 520px;
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: brightness(100%);
+}
+
+.blue-globe {
+  position: absolute;
+  width: 30rem;
+  height: 32rem;
+  right: 4rem;
+  top: 10rem;
+  opacity: 90%;
+  filter: brightness(120%);
+}
+.hero-italic-heading {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+}
+.hero-section h4{
+  color: #FFF;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.curve {
+  position: absolute;
+  right: 2.5rem;
+}
+
+
+/* Header Section in Hero Section*/
+.section-heading{
+  position: absolute;
+  margin-top: 5.6rem;
+}
+
+.section-heading h2{
+  color: var(--white);
+  margin-bottom: 0;
+  font-size: 3.4rem;
+  font-weight: 700;
+}
+.section-heading p{
+  color: var(--white);
+  font-size: .9rem;
+}
+.section-heading h3 {
+  color: #FFF;
+  font-family: 'oswald';
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+}
+.sub {
+  font-size: .75rem;
+  vertical-align: inherit;
+}
+.bulb {
+  margin-left: 350px;
+  margin-bottom: -2rem;
+}
+.chain {
+  margin-bottom: -1rem;
+}
+.animate__animated.animate__heartBeat {
+  --animate-duration: 6s;
+}
+

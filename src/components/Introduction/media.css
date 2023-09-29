@@ -1,0 +1,12 @@
+@media (max-width: 600px) {
+  .introduction {
+    display: block;
+    text-align: center;
+  }
+  .big-idea {
+    margin-right: 0;
+    width: 16.50025rem;
+    height: 16.0625rem;
+  }
+
+}

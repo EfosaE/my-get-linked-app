@@ -1,0 +1,10 @@
+.points {
+  color: #FF26B9;
+  font-weight: 700;
+  line-height: 173.5%; /* 1.735rem */
+}
+.criteria-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

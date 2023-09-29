@@ -1,0 +1,10 @@
+.introduction {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.big-idea{
+  margin-right: 6rem;
+}
+
+

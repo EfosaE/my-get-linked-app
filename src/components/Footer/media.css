@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+  .footer-divs {
+    display: block;
+  }
+ .footer-header .terms, .footer-header > p {
+      margin-bottom: .8rem;
+  }
+.follow-us .social-links li a {
+  font-size: 1rem;
+}
+.social-links li a {
+  padding: .6rem;
+}
+address.contact {
+    margin-top: 1.5rem
+}
+}

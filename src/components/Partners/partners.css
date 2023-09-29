@@ -1,0 +1,61 @@
+.partner-logos {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  border: 1px solid #d434fe;
+  background: rgba(255, 255, 255, 0.01);
+  padding: 4rem 6rem;
+}
+.grid-items {
+  width: 18rem;
+  height: 10rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.liberty-white,
+.wisper {
+  margin-top: 1.5rem;
+}
+.liberty {
+  margin-top: 3rem;
+}
+.paybox {
+  font-size: 3.1875rem;
+  font-family: "TypoHoopDemo";
+  margin-bottom: 0rem;
+}
+.vuzual {
+  font-family: "voces";
+  font-size: 2.5625rem;
+  margin-bottom: 0rem;
+}
+.vuzual-span {
+  font-family: "Volkhov";
+  font-size: 2.5625rem;
+  color: red;
+}
+.wisper{
+  margin-left: 1.5rem;
+}
+.vertical-line {
+  width: 0.25rem;
+  height: 7.02975rem;
+  background: #d434fe;
+}
+.horizontal-line {
+  width: 16rem;
+  height: 0.25rem;
+  background: #d434fe;
+  align-self: end;
+  margin-bottom: -0.2rem;
+}
+.grid-item-img {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}

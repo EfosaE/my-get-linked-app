@@ -1,0 +1,45 @@
+@media (max-width: 600px) {
+  .partner-logos {
+    padding: 1rem 2rem;
+  }
+  .grid-items {
+    width: 5rem;
+    height: 3rem;
+  }
+  .vertical-line {
+    width: 0.125rem;
+    height: 1.8rem;
+  }
+  .horizontal-line {
+    width: 4.2rem;
+    height: 0.125rem;
+  }
+  .liberty-white,
+  .wisper {
+    margin-top: 0.6rem;
+    width: 1.99938rem;
+    height: 1.88963rem;
+  }
+  .wisper {
+    margin-left: .3rem;
+  }
+  .liberty {
+    margin-top: 1.5rem;
+    width: 3.53544rem;
+    height: 0.6705rem;
+  }
+  .paybox {
+    font-size: 0.75rem;
+  }
+  .vuzual {
+    font-size: 0.75rem;
+  }
+  .vuzual-span {
+    font-size: 0.75rem;
+  }
+  .win-wise {
+    margin-top: 0.6rem;
+    width: 2.18225rem;
+    height: 1.77994rem;
+  }
+}

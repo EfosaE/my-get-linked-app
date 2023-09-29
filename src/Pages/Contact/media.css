@@ -1,0 +1,33 @@
+@media (max-width: 600px) {
+  .contact-div {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .contact-form {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: none;
+  }
+  .contact-header {
+    display: none;
+  }
+  .contact-links {
+    display: block;
+  }
+  .form-header h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  .form-header p {
+    text-align: left;
+  }
+
+.contact-small-star {
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+}
+
+}

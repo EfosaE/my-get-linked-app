@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .reward-section {
+    flex-direction: column;
+  }
+  .reward-header {
+    text-align: center;
+  }
+  .reward-heading p {
+    font-size: 0.75rem;
+  }
+  .reward-trophy-div {
+    display: block;
+  }
+  .medal-section {
+      margin-top: 6rem;
+  }
+  .medal-section .medal-div {
+    text-align: center;
+  }
+  .medal-section .g-medal-div {
+    margin: 0 1.5rem;
+    width: 6rem;
+    height: 11rem;
+  }
+  .silver {
+    width: 4.74981rem;
+    height: 4.77631rem;
+  }
+  .gold {
+    width: 7.85444rem;
+    height: 7.85444rem;
+    margin-top: -4rem;
+    margin-left: -1rem;
+    margin-bottom: 0;
+  }
+  .price {
+    font-size: 0.75rem;
+  }
+  .medal-div h4,
+  .g-medal-div h4 {
+    font-size: 0.875rem;
+  }
+  .trophy-image {
+      margin-left: -1.5rem;
+  }
+}

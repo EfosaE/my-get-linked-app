@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+    .rules {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}

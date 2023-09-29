@@ -1,0 +1,21 @@
+.rules {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.rules div img {
+  z-index: -1;
+}
+.rules-flare {
+  position: absolute;
+  top: 0;
+  left: 8rem;
+}
+.side-flare {
+  position: absolute;
+  bottom: 0.3rem;
+  right: -30rem;
+}
+.woman {
+  margin-right: 0;
+}

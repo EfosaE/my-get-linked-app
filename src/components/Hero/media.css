@@ -1,0 +1,84 @@
+@media (max-width: 600px) {
+  .hero-section {
+    text-align: center;
+  }
+  .hero-flare {
+    top: 0;
+    left: -2rem;
+  }
+  .hero-italic-heading {
+    position: relative;
+    margin-top: 0.8rem;
+    right: auto;
+  }
+  .hero-italic-heading h4 {
+    font-size: inherit;
+    font-style: italic;
+    font-weight: 500;
+  }
+  .section-heading h3.counter {
+    font-size: 3rem;
+  }
+  .star {
+    top: 3.5rem;
+    left: 6rem;
+    width: 0.625rem;
+    height: 0.75rem;
+  }
+
+  .vr-glass {
+    width: 26rem;
+    height: 23rem;
+    position: relative;
+    margin-left: -2rem;
+  }
+  .curve {
+    margin-top: 0;
+    width: 7rem;
+  }
+  .blue-globe {
+    width: 21rem;
+    height: 20rem;
+    right: 4rem;
+    top: 24rem;
+    object-fit: contain;
+  }
+  .section-heading {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  .section-heading h2 {
+    margin-bottom: 0.2rem;
+    font-size: 2rem;
+  }
+  .section-heading p {
+    font-size: inherit;
+  }
+  .section-heading h3 {
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+  }
+  .sub {
+    font-size: 0.75rem;
+  }
+  .bulb {
+    margin-left: 198px;
+    margin-bottom: -1.4rem;
+    width: 1.125rem;
+    height: 1.625rem;
+  }
+  .chain {
+    margin-right: 2px;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 0;
+  }
+  .spark {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+  }
+}

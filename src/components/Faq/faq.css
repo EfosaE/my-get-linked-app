@@ -1,0 +1,36 @@
+.question {
+  border-bottom: 0.0625rem solid #d434fe;
+  margin-bottom: 1rem;
+}
+.question h3 {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+.btn-faq {
+  background: transparent;
+  border: transparent;
+  color: #d434fe;
+  font-size: 0.8rem;
+}
+.flex-container,
+.faq-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.faq-main{
+  display: flex;
+  flex-direction: column;
+}
+.card-image {
+  height: 480px;
+}
+.accordion-p {
+  font-size: var(--extra-small-text);
+}
+.question-mark {
+  border: 2px solid blue;
+  color: transparent;
+
+  font-size: 5rem;
+}

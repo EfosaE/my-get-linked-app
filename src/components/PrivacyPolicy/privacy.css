@@ -1,0 +1,44 @@
+.privacy-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.privacy-date {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.75rem;
+}
+.privacy-section {
+  margin-right: 6rem;
+}
+.privacy-text-list {
+  display: flex;
+  justify-content: space-between;
+}
+.privacy-article {
+  border-radius: 0.3125rem;
+  border: 1px solid #d434fe;
+  background: rgba(217, 217, 217, 0.03);
+  padding: 3rem 4rem;
+}
+.list-terms {
+  color: #2de100;
+  width: 1.0625rem;
+  height: 1.0625rem;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.image-section {
+  position: relative;
+}
+.image-section .shield {
+  position: absolute;
+  z-index: -1;
+  right: 0rem;
+}
+
+.image-section .padlock {
+ margin-top: 11rem;
+ margin-right: 2rem;
+}

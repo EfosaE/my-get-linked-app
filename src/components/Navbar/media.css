@@ -1,0 +1,56 @@
+@media (max-width: 600px) {
+  .navbar {
+    display: block;
+  }
+  .nav-links {
+    display: block;
+    position: absolute;
+    top: -0.8rem;
+    left: 0;
+    width: 100vw;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.04);
+    background: #150e28;
+    transform: translateY(-100%);
+    transition: var(--transition);
+  }
+  .show-menu {
+    transform: translateY(0);
+    z-index: 5;
+  }
+  .links {
+    display: block;
+  }
+  .nav-btn {
+    margin: 0;
+  }
+  .links li {
+    font-size: 0.6rem;
+    margin: 1.5rem;
+    margin-left: 0;
+    border-radius: 0.375rem;
+  }
+  .links li a,
+  .links a {
+    padding: 1rem;
+    padding-left: 0;
+    display: block;
+  }
+  .menu {
+    display: block;
+  }
+
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .cancel-menu {
+    margin-left: 90%;
+    border: 1px solid linear-gradient(to right, #903aff, #ff26b9);
+  }
+}

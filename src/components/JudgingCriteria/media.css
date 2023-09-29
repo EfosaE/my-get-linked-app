@@ -1,0 +1,6 @@
+@media (max-width: 600px) {
+.criteria-card {
+  flex-direction: column;
+  text-align: center;
+}
+}
