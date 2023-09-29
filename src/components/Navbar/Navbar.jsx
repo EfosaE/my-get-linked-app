@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Links from "./links";
+import Links from "./Links";
 import { links } from "./data";
 import { Link } from "react-router-dom";
 import { HiBars3BottomLeft } from "react-icons/hi2";
