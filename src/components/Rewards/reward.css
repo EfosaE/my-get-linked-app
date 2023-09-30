@@ -1,3 +1,6 @@
+.rewards {
+  overflow: hidden;
+}
 .reward-trophy-div {
   display: flex;
   align-items: center;

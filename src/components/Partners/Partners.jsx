@@ -9,7 +9,7 @@ import "./media.css";
 
 const Partners = () => {
   return (
-    <section className="card">
+    <section className="card overflow">
       <div className="container">
         <div className="partner-div" style={{ textAlign: "center" }}>
           <header className="partner-header" style={{ marginBottom: "4rem" }}>

@@ -7,7 +7,7 @@ import "./media.css";
 
 const RulesSection = () => {
   return (
-    <section className="card">
+    <section className="card overflow">
       <div className="container">
         <div className="rules">
           <div>

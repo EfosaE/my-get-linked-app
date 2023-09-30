@@ -10,7 +10,7 @@ import "./media.css"
 
 const Reward = () => {
   return (
-    <section className="card">
+    <section className="card rewards">
       <div className="container">
         <div className="reward-section">
           <div className="reward-heading">

@@ -8,7 +8,7 @@ import "./media.css"
 
 const Criteria = () => {
   return (
-    <section className="card">
+    <section className="card overflow">
       <div className="container">
         <div className="criteria-card">
             <img src={ManAndWoman} alt="Man and Woman" className="card-image" />

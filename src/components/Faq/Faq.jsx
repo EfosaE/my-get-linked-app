@@ -11,7 +11,7 @@ const Faq = () => {
   const [questions, setQuestions] = useState(questionData);
 
   return (
-    <section className="card" id="faq">
+    <section className="card overflow" id="faq">
       <div className="container">
         <div className="faq-card">
           <Questions questions={questions} />

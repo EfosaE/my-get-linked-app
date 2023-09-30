@@ -7,7 +7,7 @@ import "./media.css";
 
 const PrivacyPolicy = () => {
   return (
-    <section className="card">
+    <section className="card overflow">
       <div className="container">
         <div className="privacy-div">
           <div className="privacy-section">

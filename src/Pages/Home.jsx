@@ -21,7 +21,6 @@ const LazyWithIntersectionObserver = ({ children, fallback }) => {
 
   const [inView, setInView] = useState(false)
   const componentRef = useRef();
-  console.log(componentRef);
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

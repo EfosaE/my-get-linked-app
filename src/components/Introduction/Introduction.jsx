@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Introduction = () => {
   return (
-    <section className="card" id="overview">
+    <section className="card overflow" id="overview">
       <div className="container">
         <div className="introduction">
           <div className="introduction-image">

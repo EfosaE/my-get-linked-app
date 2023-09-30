@@ -12,7 +12,7 @@ import "./media.css";
 const TimeLine = () => {
  
   return (
-    <section className="card" id="timeline">
+    <section className="card overflow" id="timeline">
       <div className="container">
         <div className="timeline-heading">
           <h3 className="card-heading">Timeline</h3>
