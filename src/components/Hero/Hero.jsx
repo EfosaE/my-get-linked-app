@@ -1,10 +1,10 @@
 import React from "react";
 import purpleImg from "../../assets/images/purpleLensFlare.svg";
 import star from "../../assets/images/star.png";
-import manGlasses from "../../assets/images/man-glasses.svg";
-import blueGlobe from "../../assets/images/Image 1.svg";
+import manGlasses from "../../assets/images/man-glasses.png";
+import blueGlobe from "../../assets/images/globe.png";
 import curve from "../../assets/images/Vector 4.svg";
-import bulb from "../../assets/images/Creative 1.png";
+import bulb from "../../assets/images/Creative.png";
 import chain from "../../assets/images/chain.png";
 import spark from "../../assets/images/spark.png";
 import { motion } from "framer-motion";

@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import RegisterForm from "./RegisterForm";
-import thumbsUp from "../../assets/images/3d-graphic-designer-showing-thumbs-up-png 1.png";
+import thumbsUp from "../../assets/images/3d-graphic-designer-showing-thumbs-up.png";
 import BrightFlare from "../../assets/images/purpleLensFlare.svg";
 import Modal from "./Modal";
 import "./media.css"

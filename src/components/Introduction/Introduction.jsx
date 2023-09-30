@@ -1,5 +1,5 @@
 import React from "react";
-import BigIdea from "../../assets/images/the big idea 1.png";
+import BigIdea from "../../assets/images/the big idea.png";
 import "./intro.css";
 import "./media.css"
 import { motion } from "framer-motion";

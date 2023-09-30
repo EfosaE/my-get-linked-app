@@ -21,16 +21,13 @@ html {
 
 *,
 ::after,
-::before,
-#root {
+::before
+{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-#root {
-  max-width: inherit;
-  text-align: inherit;
-}
+
 :root {
   /* colors */
   --primary: #d434fe;
@@ -223,6 +220,7 @@ ul {
 .card {
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
   padding: 2rem 0;
+  overflow-x: hidden;
 }
 
 .card-heading {

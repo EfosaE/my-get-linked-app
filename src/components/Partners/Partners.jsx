@@ -1,11 +1,11 @@
 import React from "react";
-import winWise from "../../assets/images/Winwise logo White colour 1.png";
+import winWise from "../../assets/images/Winwise logo White colour.png";
 import wisper from "../../assets/images/wisper logo white.png";
 import liberty from "../../assets/images/Liberty company logo white.png";
 import libertyWhite from "../../assets/images/libertyLogo.png";
 import "./partners.css";
 import "./media.css";
-import { color } from "framer-motion";
+
 
 const Partners = () => {
   return (

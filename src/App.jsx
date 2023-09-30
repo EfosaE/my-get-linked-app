@@ -1,7 +1,7 @@
 import React from "react";
-import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./Pages/Home";
+import "./index.css";
 import { Routes, Route } from "react-router-dom";
 import { Audio } from "react-loader-spinner";
 
