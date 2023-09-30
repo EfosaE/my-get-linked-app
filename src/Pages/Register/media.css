@@ -29,9 +29,20 @@
     font-size: 0.8rem;
   }
   div .modal-bg {
-    height: 150vh;
+    height: 130vh;
+    width: 100%;
   }
-  div .modal-bg .modal-container .modal-text h4{
-    font-size: 6rem
+  div .modal-bg .modal-container {
+    width: 19.8125rem;
+  }
+  div .modal-bg .modal-container .modal-img img {
+  width: 10rem;
+  height: 10rem;
+}
+div .modal-bg .modal-container .modal-img > :nth-child(1) {
+  margin-right: -6.2rem;
+}
+  div .modal-bg .modal-container .modal-text h4 {
+    font-size: 1rem;
   }
 }

@@ -14,7 +14,7 @@ const Modal = ({showModal, setShowModal}) => {
           <h4>
             Congratulations <br /> you have successfully Registered!
           </h4>
-          <p style={{ fontSize: ".875rem" }}>
+          <p>
             Yes, it was easy and you did it! <br /> check your mail box for next
             step.
           </p>
